@@ -3,6 +3,8 @@ $secretKey = "RPXeM6E5cMXDF7ypDoJhybl4PZ5fgDmRrbLi1j62"
 $region = "us-east-2"
 $securityGroupId =  $env:sg-id
 
+Write-Output $securityGroupId
+
 # Set the security group details
 $protocol = "tcp"
 $port = "80" # e.g., 8080
