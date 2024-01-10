@@ -1,7 +1,7 @@
 $accessKey = "AKIAY7SEYN2PGNMGEEFK"
 $secretKey = "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"
 $region = "us-east-2"
-$securityGroupId =  $env:sg-id
+$securityGroupId =  $env:SGID
 
 Write-Output $securityGroupId
 
